@@ -79,6 +79,7 @@ spec:
   ingressClassName: alb
   rules:
    # - host: tower.cadana.link
+    - http:
         paths:
           - path: /hello-v1
             pathType: Prefix

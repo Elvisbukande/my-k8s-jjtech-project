@@ -6,6 +6,8 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
+    #alb.ingress.kubernetes.io/certificate-arn:put ur cert arn
+    #alb.ingress.kubernetes.io/backend-protocol: HTTPS
   labels:
     run: app
 spec:
